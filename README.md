@@ -1,151 +1,447 @@
-🚀 Playwright-AI Assisted Test Automation Framework (Modern Automation Framework)
+# 🚀 Playwright AI-Assisted Test Automation Framework
 
-A scalable Playwright Test Automation Framework built using TypeScript + Page Object Model (POM) for testing Travel & E-commerce applications.
-⚡ Built using Playwright MCP with GitHub Copilot to enhance productivity and intelligent automation development.
+<p align="center">
 
+<img src="https://img.shields.io/badge/Playwright-Latest-45ba63?style=for-the-badge&logo=playwright&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Page%20Object%20Model-POM-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/API-Testing-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI-GitHub%20Copilot-purple?style=for-the-badge&logo=githubcopilot"/>
+<img src="https://img.shields.io/badge/Playwright-MCP-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Cross--Browser-Supported-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Open%20Source-GitHub-black?style=for-the-badge&logo=github"/>
 
+</p>
 
+---
 
+# 🌟 AI-Assisted Playwright Automation Framework
 
-📌 Project Overview
+A **modern, production-inspired Playwright Automation Framework** developed using **TypeScript**, **Playwright**, **Page Object Model (POM)**, **Playwright MCP**, and **GitHub Copilot**.
 
-This repository demonstrates a real-world automation framework using Playwright with best practices like:
+The project demonstrates how AI-assisted development can accelerate automation engineering while maintaining clean architecture, reusable components, and enterprise automation standards.
+
+It includes UI automation, API testing, screenshot validation, and reusable Page Objects for **Travel** and **E-Commerce** applications.
+
+---
+
+# 🚀 GitHub Repository
+
+https://github.com/ArpitChoubey/Playwright-AI-Assisted-Test-Automation-Framework-
+
+---
+
+# 🌐 Applications Under Test
+
+### ✈ Flying Rules (Travel Domain)
+
+https://flyingrules.com
+
+### 🛒 Sparkle Cart (E-Commerce)
+
+https://sparklecartonline.com/
+
+---
+
+# ⭐ Why This Repository Stands Out
+
+Unlike traditional Playwright projects, this repository demonstrates how modern AI-assisted engineering can improve automation productivity while preserving industry-standard framework design.
+
+It combines:
+
+- Playwright Automation
+- TypeScript
+- Page Object Model
+- API Testing
+- Playwright MCP
+- GitHub Copilot
+- AI-Assisted Test Development
+
+---
+
+# 🚀 Key Features
+
+✅ End-to-End UI Automation
+
+✅ API Testing
 
 ✅ Page Object Model (POM)
-✅ Reusable test components
-✅ Cross-browser testing support
-✅ Clean and maintainable structure
-✅ API + UI Testing capability
 
+✅ Cross Browser Support
 
+✅ AI-Assisted Automation Development
 
+✅ Playwright MCP Integration
 
+✅ GitHub Copilot Assisted Coding
 
+✅ Screenshot Validation
 
+✅ Parallel Test Execution
 
-🤖 AI-assisted development using GitHub Copilot + Playwright MCP
-🧠 Key Features
-🔹 End-to-End UI Automation using Playwright
-🔹 POM-based architecture for scalability
-🔹 Supports Flight Search (Travel Domain) scenarios
-🔹 API Testing included (api.spec.ts)
-🔹 Screenshot validation (logo.spec.ts)
-🔹 Parallel execution support
-🔹 Easy debugging and reporting
-🔹 AI-powered code assistance using GitHub Copilot
+✅ Clean Architecture
 
+✅ Easily Extendable Framework
 
+---
 
+# 🤖 AI-Assisted Development
 
+This framework was developed using modern AI engineering workflows.
 
+## GitHub Copilot
 
+Used for
 
+- Intelligent code completion
 
-📂 Project Structure
-Playwright-MCP/
-│── tests/
-│   ├── pages/
-│   │   └── flightSearchPage.ts     # Page Object Model
-│   ├── api.spec.ts                # API Test
-│   ├── flight-search.spec.ts      # UI Test
-│   ├── flight-search.pom.spec.ts  # POM-based Test
-│   ├── logo.spec.ts               # UI validation
-│   └── logo-screenshot.png
+- Automation development
+
+- Refactoring
+
+- Productivity improvements
+
+---
+
+## Playwright MCP
+
+Used for
+
+- AI-assisted browser automation
+
+- Faster test development
+
+- Smarter debugging
+
+- Improved automation workflows
+
+---
+
+# 🏗 Framework Architecture
+
+```
+Playwright-AI-Assisted-Test-Automation-Framework
+
 │
-│── playwright.config.ts           # Playwright Config
-│── package.json                   # Dependencies
-│── .gitignore
+├── tests
+│     ├── pages
+│     │      flightSearchPage.ts
+│     │
+│     ├── api.spec.ts
+│     ├── flight-search.spec.ts
+│     ├── flight-search.pom.spec.ts
+│     ├── logo.spec.ts
+│     └── logo-screenshot.png
+│
+├── playwright.config.ts
+│
+├── package.json
+│
+└── README.md
+```
 
+---
 
+# 🧩 Framework Design
 
+## Page Object Model
 
+The framework follows Page Object Model principles.
 
+Benefits
 
-🧪 Sample Test Scenario
+- Reusable page classes
 
-✔️ Flight Search (Round Trip)
+- Centralized locators
 
-Select round-trip option
-Add passengers (2 travelers)
-Choose cabin class (Economy)
-Enter From: London (LHR)
-Enter To: New York (JFK)
-Select departure & return dates
-Validate search results
+- Better maintainability
 
+- Cleaner code
 
+- Easier scalability
 
+---
 
+## UI Automation
 
+Automates complete user journeys including
 
-⚙️ Tech Stack
-🟦 TypeScript
-🎭 Playwright
-🧪 Playwright Test Runner
-🌐 Node.js
-🤖 GitHub Copilot (AI-assisted coding)
-⚡ Playwright MCP
+- Flight Search
 
+- UI Validation
 
+- Logo Validation
 
+- User Interactions
 
+---
 
+## API Automation
 
+API testing implemented using Playwright Request Context.
 
-▶️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/ArpitChoubey/Playwright-MCP.git
-cd Playwright-MCP
-2️⃣ Install Dependencies
+Supports
+
+- API Validation
+
+- Response Verification
+
+- Status Code Validation
+
+---
+
+# 🧪 Test Scenarios Covered
+
+## ✈ Flight Search
+
+- Round Trip Selection
+
+- Passenger Selection
+
+- Economy Cabin
+
+- Origin Selection
+
+- Destination Selection
+
+- Date Selection
+
+- Search Validation
+
+---
+
+## 🌐 UI Testing
+
+- Homepage Validation
+
+- Logo Verification
+
+- User Navigation
+
+- Functional Validation
+
+---
+
+## 🔌 API Testing
+
+- REST API Validation
+
+- Status Code Checks
+
+- Response Assertions
+
+---
+
+# 🛠 Technology Stack
+
+| Technology | Purpose |
+|------------|----------|
+| 🎭 Playwright | Browser Automation |
+| 🟦 TypeScript | Programming Language |
+| 🌐 Node.js | Runtime |
+| 🤖 GitHub Copilot | AI Coding Assistant |
+| ⚡ Playwright MCP | AI Browser Automation |
+| 🧪 Playwright Test | Test Runner |
+
+---
+
+# 🚀 Installation
+
+Clone repository
+
+```bash
+git clone https://github.com/ArpitChoubey/Playwright-AI-Assisted-Test-Automation-Framework-.git
+```
+
+Move into project
+
+```bash
+cd Playwright-AI-Assisted-Test-Automation-Framework-
+```
+
+Install packages
+
+```bash
 npm install
-3️⃣ Install Playwright Browsers
+```
+
+Install browsers
+
+```bash
 npx playwright install
-🚀 Run Tests
-Run All Tests
+```
+
+---
+
+# ▶ Execute Tests
+
+Run all tests
+
+```bash
 npx playwright test
-Run Specific Test
+```
+
+Run specific test
+
+```bash
 npx playwright test tests/flight-search.pom.spec.ts
-Run in Headed Mode
+```
+
+Run API tests
+
+```bash
+npx playwright test tests/api.spec.ts
+```
+
+Run headed mode
+
+```bash
 npx playwright test --headed
-📊 Reporting
+```
+
+---
+
+# 📊 Reporting
+
+Generate Playwright HTML Report
+
+```bash
 npx playwright show-report
-Interactive HTML Reports
-Screenshots on failure
-Trace viewer support
+```
 
+Provides
 
+- Interactive Report
 
+- Screenshots
 
+- Trace Viewer
 
-💡 Why This Project Stands Out
+- Failure Analysis
 
-✔️ Real-world use case (Travel domain)
-✔️ Industry-standard framework design
-✔️ Clean POM implementation
-✔️ API + UI coverage
-✔️ AI-assisted modern development (Copilot + MCP)
-✔️ Easy to extend for enterprise projects
+---
 
-🔥 Future Enhancements
-CI/CD Integration (GitHub Actions)
-Data-driven testing
-Environment-based config
-Docker integration
-Advanced reporting (Allure)
-🤝 Contribution
+# 💼 Skills Demonstrated
 
-Contributions are welcome!
-Feel free to fork, improve, and raise PRs 🚀
+This repository showcases practical experience with
 
-👨‍💻 Author
+- Playwright
 
-Arpit Choubey
-SDET | QA | Automation Engineer
+- TypeScript
 
-🔗 LinkedIn: https://www.linkedin.com/in/arpitchoubey/
+- Page Object Model
 
-✍️ Medium: https://medium.com/@ArpitChoubey9
+- UI Automation
 
-⭐ Support
+- API Automation
 
-If this repository helped you, please ⭐ star it to support and motivate further contributions in it.
+- AI-Assisted Development
+
+- GitHub Copilot
+
+- Playwright MCP
+
+- Cross Browser Testing
+
+- Automation Framework Design
+
+- Enterprise QA Practices
+
+---
+
+# 🚀 Future Enhancements
+
+- GitHub Actions
+
+- Jenkins Pipeline
+
+- Allure Reporting
+
+- Docker Support
+
+- Data-Driven Testing
+
+- Environment Configuration
+
+- Visual Regression Testing
+
+- Playwright Fixtures
+
+- BrowserStack Integration
+
+---
+
+# 🎯 Ideal For
+
+✔ QA Automation Engineers
+
+✔ Software Development Engineers in Test (SDET)
+
+✔ Playwright Developers
+
+✔ QA Leads
+
+✔ Test Architects
+
+✔ Engineering Managers
+
+✔ Recruiters Evaluating Automation Portfolios
+
+✔ Engineers Exploring AI-Assisted Testing
+
+---
+
+# 📸 Repository Highlights
+
+The repository includes
+
+- Production-inspired folder structure
+
+- Page Object Model implementation
+
+- API testing examples
+
+- Travel domain automation
+
+- E-Commerce automation
+
+- AI-assisted development using Playwright MCP and GitHub Copilot
+
+---
+
+# 👨‍💻 Author
+
+## Arpit Choubey
+
+**SDET | QA Automation Engineer | Playwright | Selenium | API Testing | AI-Assisted Automation**
+
+Passionate about building scalable automation frameworks, modern testing solutions, and leveraging AI to improve software quality engineering.
+
+### 🌐 Connect With Me
+
+**GitHub**
+
+https://github.com/ArpitChoubey
+
+**LinkedIn**
+
+https://www.linkedin.com/in/arpitchoubey/
+
+**Medium**
+
+https://medium.com/@ArpitChoubey9
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a **Star ⭐**.
+
+Your support motivates me to continue building modern automation frameworks and sharing practical QA engineering knowledge with the community.
+
+---
+
+## 💬 Engineering Philosophy
+
+> **"AI accelerates automation engineering, but scalable architecture, maintainable code, and thoughtful test design remain the foundation of high-quality software."**
